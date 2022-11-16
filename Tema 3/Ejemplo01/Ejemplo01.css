@@ -1,0 +1,45 @@
+#Cabezera{ 
+  color: darkcyan;  
+}
+.parrafo{
+    text-align: justify;
+}
+.rojo{
+    color: red;
+}
+.naranja{
+    color: orange;
+}
+.verde{
+    color: green;
+}
+#texto{
+    color: darkgoldenrod;
+
+}
+.rosa{
+   color: deeppink; 
+}
+.sub2{
+    color: green;
+    text-decoration-line: underline;
+}
+.azul{
+    color: blue;
+}
+table, th{
+    border: 1px solid black;
+    border-spacing: 0;
+}
+#titulo{
+    color:blue;
+    text-align: center;
+}
+#tabla{
+    width: 47%;
+    
+}
+#subrallado{
+    text-decoration-line: underline;
+}
+
