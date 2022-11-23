@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+}
+
+table,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-items: center;
+    margin:auto;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+#capacidad{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.GB{
+    background-color: gray;
+    font-size: 30px;
+    text-align: center;
+
+}
+.columna1{
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.Colspan{
+    background-color: #9b9bd3;
+    text-align: center;
+}
+.listaroja{
+    color: red;
+    align-items: center;
+    text-align: left;
+}
+#celdaamarilla{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: yellow;
+}
