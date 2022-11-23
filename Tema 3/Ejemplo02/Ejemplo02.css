@@ -1,0 +1,65 @@
+body{
+    background-color:#df3343;
+    
+}
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #df3343;
+    border: 1px;
+    text-align: center;
+    width: 15px;
+    padding: 4%;
+    border-radius: 5px;
+    margin: 3%;
+   
+}
+p{
+    color: darkgrey;
+}
+h1, h3 {
+    color: white;
+    text-align: center;
+}
+ul{
+    padding-bottom: 20px;
+    list-style: circle;
+}
+li{
+    text-align: left;
+}
+#pag{
+    max-width: 68em;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.caja{
+    border-color: white;
+    border: 1px solid white;
+    border-radius: 16px;
+    background-color: white;
+    width: 25%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 1.4em 0.5em 0;
+    align-items: center;
+    float: right;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#movil{
+    color: rgb(21, 214, 21);
+ 
+}
+#FibraMovil{
+
+    color: #df3343;
+
+}
+#Fibra{
+
+    color: rgb(59, 244, 182);
+
+}
