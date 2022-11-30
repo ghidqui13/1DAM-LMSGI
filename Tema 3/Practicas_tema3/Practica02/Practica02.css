@@ -1,0 +1,56 @@
+table,td{
+    border: solid 3px black;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr td:first-child{
+    background-color: orange;
+}
+tr #NC:first-child{
+    background-color: white;
+}
+.recreo:last-child{
+    color: white;
+    background-color: blue;
+    
+}
+td::first-letter{
+    text-transform: uppercase;
+}
+#LetraGrande td::first-line {
+    font-weight: bold;
+    
+}
+#LetraGrande ::first-letter{
+    
+    font-size: x-large;
+}
+#viernes td:last-child{
+    background-color: green;
+}
+tr:nth-child(2) td:nth-child(2){
+    background-color: red;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: green;
+}
+a:visited{
+    color: red;
+}
+input {
+    background-color: pink;
+}
+input:hover{
+    background-color: yellow;
+}
+tr td:last-child:hover{
+    font-size: 10px;
+}
+
+
+
+
+
