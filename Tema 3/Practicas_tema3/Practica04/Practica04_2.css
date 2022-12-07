@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+body{
+    background-color: #b0b08b;
+}
+nav{
+    padding: 5%;
+    background-color:rgb(129, 95, 160);
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    
+    padding-right: 30px;
+    font-size: 33px;
+    border: 2px solid rgb(137, 112, 157)y;
+    border-radius: 12px;
+}
+a{
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgb(71, 113, 114);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a:link{
+    color: red;
+}
+h1, h2{
+    text-align: end;
+    margin-top: 3%;
+}
+p{
+    background-color: rgb(232, 180, 112);
+    border-radius: 16px;
+    margin-top: 5%;
+}
+button{
+    margin-top: 10px;
+    background-color: rgb(230, 160, 135);
+    padding: 11px;
+    border-color: rgb(127, 101, 101);
+    border-radius: 18px;
+    margin-bottom: 5px;
+}
+button > a{
+    background-color: rgb(123, 61, 38);
+    text-decoration: none;
+}
+button:hover{
+    background-color: rgb(231, 204, 164);
+
+}
+button:hover > a{
+    background-color: rgb(205, 156, 84);
+
+}
+iframe{
+    
+    height: 500px;
+    width: 50%;
+    border: 0%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Parrafo1{
+    border: 3px solid black;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 16px 0px 16px 0px;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+#listas1{
+    margin-top: 10px;
+    margin-left: 50%;
+    
+}
+.li1{
+    list-style: lower-roman;
+    padding-left: 2%;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: none;
+}
+.li1:hover{
+    background-color: antiquewhite;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#Parrafo2{
+    margin-top: 5%;
+    width: 50%;
+    margin-left: 10%;
+}
+#Parrafo3{
+    margin-left: auto;
+    margin-right: auto;
+}
+#mapa{
+    margin-top: 80px;
+    margin-left: 50%;
+    
+}

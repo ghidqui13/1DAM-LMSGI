@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+body{
+    background-color: #ffffbf;
+}
+nav{
+    padding: 2%;
+    background-color: cadetblue;
+
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+li{
+    text-align: left;
+    padding-right: 30px;
+    font-size: 33px;
+    border: 2px solid rgb(105, 155, 156)y;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+i{
+    padding-right: 10px;
+
+}
+a{
+    text-decoration: none;
+    
+}
+li:hover{
+    background-color: rgb(71, 113, 114);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+a:link{
+    color: indigo;
+}
+h1, h2{
+    text-align: center;
+    margin-top: 2%;
+}
+p{
+    background-color: antiquewhite;
+    border-radius: 16px;
+    margin-top: 5%;
+}
+button{
+    margin-top: 10px;
+    background-color: coral;
+    padding: 5px;
+    border-color: gray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+button > a{
+    background-color: coral;
+    text-decoration: none;
+}
+button:hover{
+    background-color: blanchedalmond;
+
+}
+button:hover > a{
+    background-color: blanchedalmond;
+
+}
+iframe{
+    
+    height: 500px;
+    width: 100%;
+    border: 0%;
+    
+}
+#Parrafo1{
+    border: 3px solid black;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 16px 0px 16px 0px;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    
+}
+#listas1{
+    margin-top: 10px;
+    margin-left: 50%;
+    
+}
+.li1{
+    list-style: lower-roman;
+    padding-left: 2%;
+    background-color: antiquewhite;
+    font-size: 20px;
+    border: none;
+}
+.li1:hover{
+    background-color: antiquewhite;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#Parrafo2{
+    margin-top: 5%;
+    width: 50%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Parrafo3{
+    margin-left: auto;
+    margin-right: auto;
+}
+#mapa{
+    margin-top: 20px;
+}
+

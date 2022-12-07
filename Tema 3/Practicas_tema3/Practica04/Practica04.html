@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practica04
+        </title>
+        
+        <link rel="stylesheet" href="Practica04_2.css">
+        <script src="https://kit.fontawesome.com/b5df52b289.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#Parrafo1">Primera Parte</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#Parrafo2">Segunda Parte</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <a href="#Parrafo3">Tercera Parte</a>
+                    </li>
+                </ul>
+            </nav>
+        <section>
+            <hgroup>
+                <h1>
+                    Gabriel Hidalgo Quintero
+                </h1>
+            </hgroup>
+            <div id="Parrafo1">
+                <p>
+                    Esto es un aprueba para ver como queda este div con p y cosas varias
+                </p>
+                <ol id="listas1">
+                    <li class="li1">P1</li>
+                    <li class="li1">P2</li>
+                    <li class="li1">P3</li>
+                </ol>
+                <button>
+                    <a href="">Ir a Youtube</a>
+                </button>
+            </div>
+            <div id="Parrafo2">
+                <form action="">
+                    <fieldset >
+                        <legend >Datos personales</legend>
+                        <table >
+                            <tbody><tr>
+                                <td>Nombre</td>
+                                <td>Apellidos</td>
+                                <td>DNI</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="nombre3" size="25"></td>
+                                <td><input type="text" name="ape3"></td>
+                                <td><input type="text" name="dni" maxlength="9"></td>
+                            </tr>
+                            <tr>
+                                <td>Localidad Nacimiento</td>
+                                <td>Provincia:</td>
+                                <td>Fecha Nacimiento:</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" id="localidad" size="15"></td>
+                                <td><select name="provincias">
+                                        <option>- selecciona -</option>
+                                        <option value="Jaen">Jaen</option>
+                                        <option value="Almeria">Almeria</option>
+                                        <option value="Granada">Granada</option>
+                                        <option value="Malaga">Malaga</option>
+                                        <option value="Sevilla">Sevilla</option>
+                                        <option value="Cordoba">Cordoba</option>
+                                        <option value="Cadiz">Cadiz</option>
+                                    </select></td>
+                                <td><input id="nacimiento" type="date"></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">DirecciÃ³n:</td>
+                                <td>CÃ³digo Postal:</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><input type="text" id="direccion" size="35"></td>
+                                <td><input type="text" id="cod_postal"></td>
+                            </tr>
+                        </tbody></table>
+                    </fieldset>
+                </form>
+            </div>
+            <div id="Parrafo3">
+                <h2>
+                    Esta es la direccion de donde estudio
+                </h2>
+                <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3178.691944556588!2d-3.6196247846992597!3d37.183791279871386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcf6a6bfb325%3A0xe85a4066253543bf!2sIES%20Hermenegildo%20Lanz!5e0!3m2!1ses!2ses!4v1670431649171!5m2!1ses!2ses"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </body>
+</html>
