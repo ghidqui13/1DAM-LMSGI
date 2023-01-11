@@ -1,0 +1,34 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #336B87;
+    color:azure;
+}
+nav{
+ background-color: #90AFC5;
+ height: 30px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 23px;
+    padding-right: 13px;
+}
+a:first-child{
+    margin-left: 20px;
+}
+nav>a:link{
+ 
+    color: black;
+
+}
+hr{
+    display: none;
+}
+#cabecera{
+    text-align: center;
+}
+main{
+    background-color: #2A3132;
+}
