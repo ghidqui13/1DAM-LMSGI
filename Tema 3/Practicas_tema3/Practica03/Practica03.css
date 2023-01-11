@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+ display: block;
+ background-color: bisque;
+ padding: 30px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding-left: 9px;
+    
+}
+li:hover{
+    background-color: rgb(223, 199, 170);
+    padding: 15px;
+}
+i{
+    color: cornflowerblue;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+a:hover{
+    color: cornsilk;
+}
