@@ -1,11 +1,11 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-color: #336B87;
-    color:azure;
+    background-color: #B4A9E6;
+    color:#E6DEA8;
 }
 nav{
- background-color: #90AFC5;
+ background-color: #DCD4FF;
  height: 30px;
  padding-top: 10px;
  padding-bottom: 10px;
@@ -26,9 +26,13 @@ nav>a:link{
 hr{
     display: none;
 }
+main{
+    background-color: #6B6099;
+}
 #cabecera{
     text-align: center;
 }
-main{
-    background-color: #2A3132;
+#cabecera>img{
+ height: 220px;
+ width: 220px;
 }
