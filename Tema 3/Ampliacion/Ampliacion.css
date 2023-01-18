@@ -1,0 +1,27 @@
+body{
+    margin-top: 10%;
+}
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+article{
+    background-color: bisque;
+    margin-left: auto;
+    margin-right: auto;
+    transition: padding 3s;
+    width:200px;
+    padding:10px;
+}
+p{
+    text-align: center;
+    border: 2px solid bisque;
+    border-radius: 10px;
+
+    
+}
+article:hover{
+    width: 300px;
+    padding: 30px;
+}
