@@ -1,0 +1,33 @@
+#container{
+    display: flex;
+    background-color: grey;
+    border: 1px solid blue;
+    flex-flow:row  nowrap;
+    justify-content: center;
+}
+#primer{
+    background-color: lightblue;
+    height: 35px;
+    width: 30%;
+    order: 2;
+}
+#segundo{
+    background-color: lightsalmon;
+    height: 85px;
+    width: 30%;
+    order: 1;
+    
+}
+#tercero{
+    background-color: lightgreen;
+    height: 65px;
+    width: 30%;
+    order: 2;
+
+}
+img{
+    height: 100px;
+    width: 100px;
+    order: 1;
+
+}

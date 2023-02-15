@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+section{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+article{
+    margin-top: 10%;
+    column-gap: 50px;
+    column-count: 3;
+    padding: 4%;
+    border: 1 solid grey;
+    background-color:grey ;
+    column-rule: 5px solid red;
+
+}
+article p{
+    break-inside: avoid-column;
+}
+p{
+    padding-top: 2%;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+div>img{
+    float: right;
+    margin: 0px;
+    clear: right;
+    
+}
