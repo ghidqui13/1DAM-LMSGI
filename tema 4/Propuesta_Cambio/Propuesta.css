@@ -1,22 +1,35 @@
 *{
     font-family: 'Montserrat', sans-serif;
-}
-body{
     margin: 0px;
     padding: 0px;
+}
+body{
+    
     width: 100%;
     height: 100%;
+    font-size: medium;
 }
 .cabezera{
     text-align: center;
     background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 6%;
+    padding-top: 3%;
 }
 
 h1{
     margin: 0px;
+    color: #a9d37f;
 }
 h2{
     margin: 0px;
+    color: #a9d37f;
+}
+h3{
+    text-align: center;
+    margin-top: 5%;
+    color: #a9d37f;
 }
 nav{
     width: 100%;
@@ -33,30 +46,93 @@ ul{
 li{
     margin: 0 auto;
 
-}
-li > 
+} 
 li > a:link  , a{
     color: white;
     text-decoration: none;
 }
 #Nues_his>figure{
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 16px;
+    text-align: center;
+    align-items: center; 
+    box-shadow:30px 10px 20px #aaa;
+    background-color:rgb(238, 238, 238);
+    width: 80%;
+    margin-top: 2%;
+    padding: 2%;
 
+}
+#Nues_his>figure>p{
+    display: inline-block;
 }
 
 #Quien_som>figure{
+    margin: 0 auto;
     display: flex;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 16px;
+    text-align: justify; 
+    box-shadow:30px 10px 20px #aaa;
+    background-color:rgb(238, 238, 238);
+    width: 80%;
+    margin-top: 2%;
+    padding: 2%;
+
 }
-#Un_poco_nos>figure{
+#Quien_som>figure>p{
     display: inline-block;
 }
+#Un_poco_nos>figure{
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid rgb(238, 238, 238);
+    border-radius: 16px;
+    text-align: justify; 
+    box-shadow:30px 10px 20px #aaa;
+    background-color:rgb(238, 238, 238);
+    width: 80%;
+    margin-top: 2%;
+    padding: 2%;
+
+}
+#Un_poco_nos>figure>p{
+    display: inline-block;
+
+}
 figure>p{
- 
+  text-align: justify;
 }
 figure>img{
     height: 50%;
     width: 50%;
+    
+}
+iframe{
+    padding-top: 5%;
+    width: 100%;
 }
 
 footer{
+    
     border-top: 1px solid rgb(220, 219, 219);
+    background-color:rgb(220, 219, 219);
+    text-align: start;
+    display: inline-block;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    width: 100%;
+}
+i{
+    margin-top: 2%;
+    color: black;
+    padding-top: 1%;
+}
+footer>p{
+    margin-top: -1.5%;
+    margin-bottom: 2%;
+    text-align: end;
+    
 }
