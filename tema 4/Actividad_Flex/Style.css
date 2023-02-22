@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid gray;
+    padding-top: 2%;
+}
+header img{
+    height: 30px;
+    width: 30px;
+    padding-right: 2%;
+}
+header h2{
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+aside{
+    width: 12%;
+    display: flex;
+    justify-content: flex-start;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    width: 100%;
+}
+figure{
+    border: 2px solid grey;
+    border-radius:3%;
+}
+article{
+    justify-content: space-between;
+}
+#Primer_articulo{
+    width: 60%;
+    flex: 4 1 20em; 
+}
+#Segundo_articulo{
+    width: 40%;
+    flex: 1 2 20em; 
+}
